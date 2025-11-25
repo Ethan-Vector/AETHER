@@ -1,0 +1,1 @@
+class BrowserTool: pass
