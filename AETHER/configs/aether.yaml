@@ -1,0 +1,14 @@
+# AETHER runtime configuration
+llm: stub
+
+guardrails:
+  max_steps: 8
+  max_tool_calls: 4
+  tool_allowlist:
+    - calc
+    - note
+  workspace_dir: workspace
+
+tracing:
+  enabled: true
+  trace_dir: traces

@@ -1,0 +1,2 @@
+{"id": "calc_basic", "prompt": "calculate: 2*(3+4)", "expect_contains": "14.0", "expect_tool": "calc"}
+{"id": "note_basic", "prompt": "note: remember to ship evals", "expect_contains": "Saved note", "expect_tool": "note"}

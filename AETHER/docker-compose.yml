@@ -1,0 +1,12 @@
+services:
+  aether:
+    build: .
+    environment:
+      - AETHER_LLM=stub
+      - AETHER_TRACE_DIR=/app/traces
+      - AETHER_WORKSPACE=/app/workspace
+    volumes:
+      - ./traces:/app/traces
+      - ./workspace:/app/workspace
+    tty: true
+    stdin_open: true
